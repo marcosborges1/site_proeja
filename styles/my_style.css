@@ -6,7 +6,44 @@
   background: #f981b3 !important;
 }
 
+a.access_link:hover {
+	color:blue;
+	text-decoration: underline;
+}
+
 #informations_base i {
 	font-size: 80px;
 	
+}
+.tooltiptext {
+
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 10px;
+	position: absolute;
+	top:-10%;
+	left:0;
+	margin-left:17%;
+	margin-top:-15px;
+	transition: opacity 0.3s;
+	display: none;
+
+}
+.tooltiptext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.copiar_link_meet {
+	position: absolute;
+	top:-50px;
+}
+.margin_block {
+	margin-top: 15px;
 }
