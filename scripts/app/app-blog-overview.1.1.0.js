@@ -20,5 +20,6 @@ $(document).ready(function () {
     });
     
     //End Configuration Marcos
+    new WOW().init();
   
 })
